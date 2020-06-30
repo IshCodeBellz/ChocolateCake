@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="container">
+    <header>
+      <h1>How to make a Chocolate Fudge Cake</h1>
+      <img src="https://images.immediate.co.uk/production/volatile/sites/2/2015/02/chocolate-fudge-cake.jpg?quality=45&crop=5px,615px,2396px,1596px&resize=620,413"alt="Easiest ever chocolate fudge cake"> 
+      <h2>Easiest ever chocolate fudge cake</h2> 
+      <p> This chocolate fudge cake recipe is super easy and quick to make so it is perfect for when you need to bake a last minute simple yet decadent cake for a special occasion. You don't need to use a chocolate with a high % for this, just standard dark chocolate is fine</p>
+    </header>
+    <br>
+    <section id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+      <h2>Ingredients <i class="fa fa-book" aria-hidden="true"></i> </h2>
+      <ul>
+        <li>Self-raising flour (150g) </li>
+        <li>Cocoa 30g </li>
+        <li>Baking powder (1 tsp) </li>
+        <li>Muscovado sugar (175g) </li>
+        <li>Butter softened(175g)  </li>
+        <li>Eggs (3)  </li>
+        <li>Vanilla extract (1 tsp) </li>
+        <li>Dark chocolate melted (50g) </li>
+      </ul>
+    </section>
+    <br>
+    <section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
+      <h2>Preparation <i class="fa fa-check-circle-o" aria-hidden="true"></i> </h2>
+    <ol>
+        <li>Heat the oven to 180C/fan 170C/gas 4. Line and butter 2 x 20cm sandwich tins.</li>
+        <li>Put all cake ingredients into the food processor and whizz until smooth. If the mix is a little stiff, add 1-2 tbsp water and whizz again.</li>
+        <li>Divide between tins, level and bake for 20 minutes or until springy. Leave for 5 minutes then cool on a rack.</li>
+        <li>Clean the food processor. Whizz the butter and icing sugar, add the chocolate, whizz again, then sandwich and ice the cake.</li>
+      </ol>
+    </section>
+    <br>
+    <section id="fudge" onmouseover="fudgeHover()" onmouseout="fudgeNormal()">
+      <h2>Fudge Icing (optional) <i class="fa fa-birthday-cake" aria-hidden="true"></i> </h2>
+    <ul>
+        <li>Butter softened (200g) </li>
+        <li>Icing sugar (200g) </li>
+        <li>Dark chocolate melted (200g) </li>
+    </ul>
+    </section>
+    <footer>
+      <p>
+        Copyright Me 2019
+      </p>
+    </footer>    
+    </div>
+ <script>
+        function ingredientsHover() {
+            document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize = '300%';
+        }
+
+
+        function ingredientsNormal() {
+            document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize = '100%';
+            // document.write("Normal");  
+        }
+
+
+        function preparationHover() {
+            document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize = '300%';
+        }
+
+
+        function preparationNormal() {
+            document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize = '100%';
+        }
+
+        function fudgeHover() {
+            document.getElementById('fudge').firstElementChild.firstElementChild.style.fontSize = '300%';
+        }
+
+
+        function fudgeNormal() {
+            document.getElementById('fudge').firstElementChild.firstElementChild.style.fontSize = '100%';
+        }
+    </script>
+  </body>
+</html>
+<!--
+https://www.olivemagazine.com/recipes/baking-and-desserts/easiest-ever-chocolate-fudge-cake/
+-->
